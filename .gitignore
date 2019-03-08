@@ -34,3 +34,26 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+
+# R files not version controlled
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+
+# project files not version controlled 
+manage
+practice
+
+# top directory files not version controlled
+*.html
+
+# sub-directory files not version controlled
+*/*.html
+*/*.docx
+*/*.pptx
+*/*.xlsx
+
+# raw data files not version controlled 
+data-raw
