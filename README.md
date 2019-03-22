@@ -22,3 +22,12 @@ Discussion notes
 ----------------
 
 [Reading responses](reports/reading-responses.md) Notes from the data graphics literature on elements of design and visual rhetoric.
+
+try writing an equation
+-----------------------
+
+![
+m\\ddot{x}+c\\dot{x}+kx=F
+](https://latex.codecogs.com/png.latex?%0Am%5Cddot%7Bx%7D%2Bc%5Cdot%7Bx%7D%2Bkx%3DF%0A "
+m\ddot{x}+c\dot{x}+kx=F
+")

@@ -1,5 +1,8 @@
 ---
-output: github_document
+output: 
+  github_document:
+    pandoc_args: "--webtex"
+
 ---
 ```{r echo = FALSE, out.width = "100%"}   
 knitr::include_graphics("resources/pinball-tourney.jpg")
@@ -29,3 +32,8 @@ State the type of graph (strip plot or box plot) and summarize the main points o
 ## Discussion notes 
 
 [Reading responses](reports/reading-responses.md) Notes from the data graphics literature on elements of design and visual rhetoric. 
+
+##  try writing an equation 
+\[
+m\ddot{x}+c\dot{x}+kx=F
+\]
