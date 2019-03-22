@@ -6,7 +6,7 @@ knitr::include_graphics("resources/pinball-tourney.jpg")
 ```
 <small>
 <br>
-<i>police force and dirty harryt</i> 
+<i>police force and dirty harry</i> 
 by marcos ojeda (2009) is licensed under 
 <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC0 2.0</a>
 <br>

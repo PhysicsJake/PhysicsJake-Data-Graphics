@@ -1,5 +1,5 @@
 
-<img src="resources/pinball-tourney.jpg" width="100%" /> <small> <br> <i>police force and dirty harryt</i> by marcos ojeda (2009) is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC0 2.0</a> <br> </small>
+<img src="resources/pinball-tourney.jpg" width="100%" /> <small> <br> <i>police force and dirty harry</i> by marcos ojeda (2009) is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC0 2.0</a> <br> </small>
 
 Portfolio of data displays
 ==========================
