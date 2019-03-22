@@ -35,9 +35,9 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 Citation
 --------
 
-Tufte shows us that without the proper visual rhetoric, important points can be missed by the audience. This could result in uninformed decision making.(Edward [1997](#ref-Tufte:1997))
+Tufte shows us that without the proper visual rhetoric, important points can be missed by the audience. This could result in uninformed decision making.(Edward, [1997](#ref-Tufte:1997))
 
 References
 ----------
 
-Edward, Turfte. 1997. *Visual and statistical thinking: Displays of evidence for making decisions.* Chesire, CT: Graphics Press. <http://www.treesmapsandtheorems.com/>.
+Edward T (1997) *Visual and statistical thinking: Displays of evidence for making decisions.* Graphics Press, Chesire, CT <http://www.treesmapsandtheorems.com/>

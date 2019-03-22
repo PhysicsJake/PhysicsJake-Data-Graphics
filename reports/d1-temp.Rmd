@@ -5,6 +5,7 @@ output:
     pandoc_args: "--webtex"
 bibliography: "../resources/references.bib"
 link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
 ---
 
 ```{r setup, include=FALSE}
