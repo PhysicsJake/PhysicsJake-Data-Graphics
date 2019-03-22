@@ -1,0 +1,40 @@
+---
+title: "Test report"
+output: github_document
+date: "3/18/2019"
+author: "Jake Spears"
+---
+
+```{r echo = FALSE}
+library("knitr")  
+opts_knit$set(root.dir = "../")  
+opts_chunk$set(echo = FALSE)  
+```
+## Introduction   
+This is a practice document, meant to be used to gain experience in creating an R markdown file.
+
+## Requirements 
+
+This display meets the data requirements for D1 distributions
+
+- 250 observations 
+- One quantitative variable (speed) 
+- Two categorical variables: sex (2 levels) and event (3 levels)  
+
+This display also meets the following document requirements 
+
+- sports data limit (this display is one of two) 
+
+```{r message = FALSE , warning = FALSE}
+# in a code chunk in your Rmd file 
+library(dplyr)
+data(starwars, package = "dplyr")
+
+# examine it
+glimpse(starwars)
+```
+
+```{r message = FALSE , warning = FALSE}
+# code chunk in your Rmd file 
+source("explore/0204more-R-basics-explore.R")
+```
