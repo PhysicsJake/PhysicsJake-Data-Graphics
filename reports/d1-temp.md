@@ -31,3 +31,10 @@ You can also embed plots, for example:
 ![](d1-temp_files/figure-markdown_github/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Citation
+--------
+
+Tufte shows us that without the proper visual rhetoric, important points can be missed by the audience. This could result in uninformed decision making.(Edward 1997)
+
+Edward, Turfte. 1997. *Visual and statistical thinking: Displays of evidence for making decisions.* Chesire, CT: Graphics Press. <http://www.treesmapsandtheorems.com/>.

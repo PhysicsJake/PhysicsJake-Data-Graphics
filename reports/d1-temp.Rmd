@@ -1,6 +1,10 @@
 ---
 title: "d1-temp"
-output: github_document
+output: 
+  github_document:
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +32,8 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Citation
+
+Tufte shows us that without the proper visual rhetoric, important points can be missed by the audience. This could result in uninformed decision making.[@Tufte:1997]
