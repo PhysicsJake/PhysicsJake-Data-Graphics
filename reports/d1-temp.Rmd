@@ -4,7 +4,7 @@ output:
   github_document:
     pandoc_args: "--webtex"
 bibliography: "../resources/references.bib"
-
+link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -37,3 +37,5 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ## Citation
 
 Tufte shows us that without the proper visual rhetoric, important points can be missed by the audience. This could result in uninformed decision making.[@Tufte:1997]
+
+## References
