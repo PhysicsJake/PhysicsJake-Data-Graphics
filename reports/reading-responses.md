@@ -59,35 +59,10 @@ variable name: Antibiotic
 -   type: Categorical Nominal
 -   levels (if categorical): 3
 
-variable name: pill concentration
-
--   type: Quantitative
--   levels (if categorical):
-
-variable name: Drop volume proportional to antibiotic concentration
-
--   type: Quantitative
--   levels (if categorical):
-
 variable name: Bacteria
 
 -   type: Categorical Nominal
 -   levels (if categorical): 16
-
-variable name: Strepromycin effectiveness
-
--   type: Quantitative
--   levels (if categorical):
-
-variable name: Neomycin effectiveness
-
--   type: Quantitative
--   levels (if categorical):
-
-variable name: Strepromycin effectiveness
-
--   type: Quantitative
--   levels (if categorical):
 
 **Prompt:** The article title is "Fifteen displays about one thing." After reading the entire article, what is the "one thing?" Note that the "one thing" might imply multiple goals or more than one question.
 
