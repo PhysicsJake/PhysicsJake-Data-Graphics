@@ -26,7 +26,7 @@ This portfolio includes data and graphics for both my personal and professional 
 
 ## Displays and critiques
 
-[Display 1](reports/d1-report.md) Ohio State University Annual Base Salary Review 
+[Display 1](reports/d1-report.md) 2018 Ohio State University Annual Base Salary Review 
 This report showcases a box plot with Annual Base Salary data for The Ohio State University. The data comes directly from their website at https://apps.hr.osu.edu/salaries/ . In this report, the annual base salaries are compared across three depratments in the university. These departments are the university itself, its athletic department, and its adjunct health system. Since Ohio State is know widely for their althetics, I wanted to take an in depth look at where the real hiring priorities for the university lie.
 ## Discussion notes 
 

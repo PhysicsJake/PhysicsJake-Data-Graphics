@@ -4,9 +4,8 @@ library("graphclassmate")
 
 osu_sal <- read_rds("data/osu_sal.rds")
 ggplot(osu_sal, aes(y = ANNUAL_BASE_SALARY, x = POSITION_GROUP)) +
-  geom_boxplot(width = 0.45, alpha = 0.9) +
+  geom_point() +
   coord_flip() +
-  scale_y_continuous(trans = 'log10')+
   aes(color = POSITION_GROUP) +
   scale_color_manual(values = c(rcb("dark_BG"), rcb("dark_PG"), rcb("dark_G"))) +
   aes(fill = POSITION_GROUP) +
