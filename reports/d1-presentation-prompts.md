@@ -29,4 +29,4 @@ Comments from peers
 -   From the Doumont paper, what type of story is being told?
 -   Is the graph type suited to the data structure?
 -   Other suggestion
--   etc
+-   etc intro into data then graph then critique. cut function to bin the salary data. Data based seleciton points. Try going to box plots with salary ranges on the x axis and number on the y. Find a more interesting story to tell with the data.
