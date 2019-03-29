@@ -1,6 +1,21 @@
 
 ## correspondence
 
+### 2019-03-29
+
+**RL** D1 presentation notes.
+
+The introduction you gave us verbally is the basis for a written
+introduction in the report.
+
+Order the departments by the median of the salaries. The number of
+employees for each department could be added as a bar chart to the right
+of the graph.
+
+Us the cut() to bin the all salary data, y-axis is the range, three box
+plots per range. Use the number of employees in each group as the x
+axis.
+
 ### 2019-03-25
 
 **RL** The links on the README page all work. No problems so far.
