@@ -16,7 +16,7 @@ The data came in a set of 41,602 observation of 15 different variables from http
 
 
 
-```{r}
+```{r echo = FALSE}
 library("knitr")
 include_graphics("../figures/osu-data-fig.png")
 ```
