@@ -1,0 +1,32 @@
+
+presentation prompts
+====================
+
+D1 Box Plot
+-----------
+
+State the number of observations: 14,420 Observations
+
+List the variables:
+
+Annual Base Salary - Quantitative Department - 3 Level Categorical
+
+State the graph type: Box Plot
+
+Explain why the graph type is suited to the data structure:
+
+The large number of observaitons makes it nearly imposisble to show a straight distribution for this data that is meaningful. As such, to be able to accurately compare the differences between the three categories, a box plot was the better graph design. Since the outlying numbers help tell the story in this scenario, the ability to clearly show the outliers is a clear advantage of the box plot design.
+
+The box plot design allows the means for each of the departments to be easily compared, and gives answers to quesitons regarding the data. Whereas for this particular data set, a distribution would be too cluttered to tell a story.
+
+Explain each design choice and cite its supporting reference
+
+The box plot is chosen to compare the mean values and the outlying cases in the data. The questions being considered when designing this graph were: How do cross-department sectors of a large "sports" school compare to each other. Does the large sports program take away from the other aspects of the school? The box plot design provides us a good enough comparison to at the very least provoke further conversation about the institution and its hiring priorities.
+
+Comments from peers
+
+-   Does the data structure satisfy the portfolio display requirements?
+-   From the Doumont paper, what type of story is being told?
+-   Is the graph type suited to the data structure?
+-   Other suggestion
+-   etc
