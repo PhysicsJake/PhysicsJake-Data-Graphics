@@ -1,6 +1,21 @@
 
 ## correspondence
 
+### 2019-04-05
+
+**RL** D2 presentation notes.
+
+Change Race to Race/Ethnicity
+
+Change arrests to arrests as percent of that population in the
+incorporated area
+
+Factor recode race/ethnicity factor to lump together small related
+levels, e.g., East Asian, Pacific Islander, etc.
+
+Also, the forcats package has a function for recoding “everything else”
+into a single category. (see the text)
+
 ### 2019-03-29
 
 **RL** D1 presentation notes.
