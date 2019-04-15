@@ -28,8 +28,4 @@ Explain each design choice and cite its supporting reference
 Chosen to sort the data by the largest arrest count to easily show outliers. Having the ability to show the outliers against an expected "curve" allows me to be able to show what my real point is. This is the main purpose of the carpentry and display of this data. It shows where the unexpected number of arrests occur.
 Comments from peers 
 
-- Does the data structure satisfy the portfolio display requirements?  
-- From the Doumont paper, what type of story is being told? 
-- Is the graph type suited to the data structure? 
-- Other suggestion 
-- etc
+Check out factors in the book for lumping (Hadley funciton to recode)

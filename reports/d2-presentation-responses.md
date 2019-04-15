@@ -1,0 +1,29 @@
+Presentation Prompts
+================
+
+Jake Spears
+2019-04-15
+
+presentation prompts
+====================
+
+D2 multiway
+-----------
+
+State the number of observations: 728808 (After NA observations removed)
+
+List the variables:
+
+Number of Crimes - Quantitative 1, continuous Race of Arrested Person - Categorical 1, 20 Levels Region of LA where arrest occured - Categorical 2, 21 Levels
+
+State the graph type: Multiway distribution
+
+Explain why the graph type is suited to the data structure:
+
+There is only one quantitative variable that is being compared between two categorical variables. It is used to show outliers prominately accross different attributes of the data. In this case, the location of the crime and race of the arrested individual is shown agianst the number of arrets.
+
+Explain each design choice and cite its supporting reference
+
+Chosen to sort the data by the largest arrest count to easily show outliers. Having the ability to show the outliers against an expected "curve" allows me to be able to show what my real point is. This is the main purpose of the carpentry and display of this data. It shows where the unexpected number of arrests occur. Comments from peers
+
+Check out factors in the book for lumping (Hadley funciton to recode)
