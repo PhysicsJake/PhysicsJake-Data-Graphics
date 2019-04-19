@@ -1,6 +1,16 @@
 
 ## correspondence
 
+### 2019-04-19
+
+**RL** D3 presentation notes
+
+No graph today :(.
+
+Data carpentry issues. Please try and see me during office hours so we
+can fix these issues early. Also, please work on the tutorials to get
+the practice you need.
+
 ### 2019-04-05
 
 **RL** D2 presentation notes.
