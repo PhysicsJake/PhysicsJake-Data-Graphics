@@ -1,6 +1,22 @@
 
 ## correspondence
 
+### 2019-04-26
+
+**RL** D4 presentation notes.
+
+If ggsave doesn’t work, try png() function followed by dev.off()
+
+vertical bands that might explain te drop in life exp., e.g., WW1, WW2,
+policy changes such as the start of medicare/medicaid, the start of
+social security, tobacco advertising banned
+
+compared to what? other industrialized countries?
+
+facet on sex?
+
+facet on income bracket might be informative? or income inequality?
+
 ### 2019-04-19
 
 **RL** D3 presentation notes
