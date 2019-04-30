@@ -22,7 +22,7 @@ hospice_graph <- ggplot(mortality, aes(x = Year, y = Life_Expectancy, color = Ra
   geom_point() +
   theme_graphclass(line_color = rcb("mid_Gray"), 
                    font_size = 12) + 
-  scale_color_grey(start=0.7, end=0.2)+
+  scale_color_grey(start=0.7, end=0.2)
   theme(axis.line = element_line(colour = rcb("pale_Gray")), 
         strip.text = element_text(color = rcb("dark_Gray"), face = "bold"), 
         plot.margin = unit(c(2, 4, 1, 0), "mm"), # top, right, bottom, and left margins
@@ -46,8 +46,12 @@ hospice <- image_quantize(hospice,  max = 10, colorspace = "gray")
 hospice  <- image_colorize(hospice,  opacity = 25, color = "white")
 
 ggsave(plot = hospice_graph, 
-       filename = "hospice_graph_d4.png",
-       path    = "/figures",
+       filename = "hospiceg.png",
+       path    = "figures",
        width   = 4,
        height  = 4,
+       dpi = 300
 )
+hospice <- image_scale(hospice, "x500")
+hospice_graph <- image_read("explore/test_hospice_figure.jpg")
+hospice_graph <- image_scale(hospice_graph, "x500")
