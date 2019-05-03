@@ -4,6 +4,20 @@ output: github_document
 
 ## correspondence 
 
+### 2019-05-03
+
+**RL**  D5 presentation notes.  
+
+
+The problem is that CO2 per ton of oil doesn't help us with climate change 
+
+plot the CO2 tons as a raw number
+
+maybe per capita oil consumption in anothergraph 
+
+Compared to what? Look at other climate science articles on emissions and see what they compare to
+
+
 
 ### 2019-04-26
 
