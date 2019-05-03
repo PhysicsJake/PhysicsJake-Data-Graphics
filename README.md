@@ -19,6 +19,8 @@ Displays and critiques
 
 [Display 2](reports/d2-report.md) 2010-2013 Crime and Arrest data from the Los Angeles Police Department. This graph compares the number of arrests in each area of Los Angeles for each reported race.
 
+[Display 5](reports/d5-gas-report.md) 2014 BP Statistical Review on World energy, and its attempts to quiet the opposition of big oil and gas.
+
 Discussion notes
 ----------------
 
