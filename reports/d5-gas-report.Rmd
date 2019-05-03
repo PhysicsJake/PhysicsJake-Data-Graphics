@@ -15,7 +15,7 @@ Inside this report from BP, there are many different data values for every part 
 
 
 
-```{r echo = FALSE}
+```{r echo = TRUE}
 library("knitr")
 include_graphics("../resources/gasreference.png")
 ```
