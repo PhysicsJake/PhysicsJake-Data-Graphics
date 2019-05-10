@@ -5,7 +5,7 @@ Portfolio of data displays
 ==========================
 
 Jake Spears
-2019-04-05
+2019-05-10
 
 Introduction
 ------------
@@ -20,6 +20,8 @@ Displays and critiques
 [Display 2](reports/d2-report.md) 2010-2013 Crime and Arrest data from the Los Angeles Police Department. This graph compares the number of arrests in each area of Los Angeles for each reported race.
 
 [Display 5](reports/d5-gas-report.md) 2014 BP Statistical Review on World energy, and its attempts to quiet the opposition of big oil and gas.
+
+[Display 6](reports/d6-3dprinting-report.md) 3D printing data plotted to show which parameters best affect specimen strength, sorted by infill and material.
 
 Discussion notes
 ----------------
