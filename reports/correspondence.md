@@ -1,7 +1,30 @@
 
 ## correspondence
 
-### 2019-05-03
+### 2019-05-17
+
+**RL** D7 presentation notes.
+
+### 2019-05-10
+
+**RL** D6 presentation notes.
+
+Assign an alpha value to the density plots so they are somewhat
+transparent
+
+What can you conclude for the density graphs? From the correlation
+values? From the box plots? etc.
+
+Place a number in the panels you intend to discuss so you can refer to
+them in the critique.
+
+Are these the two most commonly used materials?
+
+You could also separate out the unimportant variables and show them in a
+separate graph.
+
+Critique should conclude with a discussion of how i use this graph to
+select a material for a particular application. Use examples.
 
 **RL** D5 presentation notes.
 
@@ -10,7 +33,7 @@ change
 
 plot the CO2 tons as a raw number
 
-maybe per capita oil consumption in anothergraph
+maybe per capita oil consumption in another graph
 
 Compared to what? Look at other climate science articles on emissions
 and see what they compare to
@@ -21,7 +44,7 @@ and see what they compare to
 
 If ggsave doesn’t work, try png() function followed by dev.off()
 
-vertical bands that might explain te drop in life exp., e.g., WW1, WW2,
+vertical bands that might explain the drop in life exp., e.g., WW1, WW2,
 policy changes such as the start of medicare/medicaid, the start of
 social security, tobacco advertising banned
 
