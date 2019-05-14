@@ -1,0 +1,28 @@
+
+<br> Copy and paste the following raw Rmd script into your own Rmd file
+
+week 10 reading prompts
+-----------------------
+
+Spence, Ian (2006) William Playfair and the psychology of graphs. In: *IEEE Transactions on Professional Communication.* Alexandria, VA: American Statistical Association, section on statistical graphics, 2426--2436.
+
+<br> **Prompt:** Explain what the author means by the "psychology of graphs."
+
+**Response:** The Author explains that Playfair had a very early understanding of how humans perceived visual graphics. This understanding stemmed from an understanding of what became modern experimental psychology. In particular, playfair was adept at understanding the perceptual attributes that best support efficient cognitive operations. By taking advantage of these operations, Playfair was able to make graphs that were extremely affective, and are still used today.
+
+<br> **Prompt:** Psychology was identified as its own science in the 1730s and experimental psychology research began in the 1830s. Thus William Playfair's life (1759--1823) overlapped the beginnings of psychology as a science. But he was not a psychologist---he was a craftsman by trade who was exposed to the best minds of the Scottish Enlightenment. His experience included engineering, commerce, and publishing (as well as dubious investment schemes and attempted extortion). Nevertheless, the author makes connections between Playfair and psychology.
+
+Describe those connections.
+
+**Response:**
+Playfair grew up surrounded by pioneers in many different aspects of science. It is obvious from his writing that he was entralled by the professionals that he both worked for and interacted with in his upbringing. He also had a collective of experiences that allowed him to grow into the pioneer of data graphics. The first is a basic understanding of engineering. This means that Playfair was subject to at least some basic principles of design. Also, being in drafting and printing, he was exposed to all of the methods of producing documentation, and was subjected to a wide variety of material. Also, he was surrounded by the growth of empirical and statistical science, and being so interested in new sciences and philospohies, and being in the community that he was, it is no wonder that he took advantage of these new findings and implementedthem into his work.
+
+<br> **Prompt:** In section 2.3, the author describes 5 examples of graphical conventions that Playfair invented or adapted. Discuss your interpretation of each convention in light of our other readings and discussions this term.
+
+**Response:** "Playfair’s designs are constructed in such a fashion that low-level pre-attentive processes are easily completed by the human visual system."
+
+Playfair does not have any "Chartjunk" as coined by Tufte, and he highlights exactly what he wants to be shown. he picks an aspect ratio that leads to easy pre-processing.
+
+“The greatest value of a picture is when it forces us to notice what we never expected to see” (emphasis and italics in the original). Tufte in particular would like the fact that there is no junk. All of the aspects of Playfairs graphs attune the reader to the point that he is making. Labels are positioned next to lines themselves instead of in a legend for example. It really lends the reader to get straight to the point instead of spending lots of time interpreting the graph.
+
+Playfair uses color pointedly, to distinguish categories. It isn't merely an aesthetic design, it serves purpose in helping the reader. He also uses length and area to compare quantitative data, aspects that are very easy for the reader to compare. Especially compared to the earlier graphs shows that only had numbers.
