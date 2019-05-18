@@ -17,6 +17,8 @@ Statistical Association, section on statistical graphics, 2426--2436.
 **Response:** 
 The Author explains that Playfair had a very early understanding of how humans perceived visual graphics. This understanding stemmed from an understanding of what became modern experimental psychology. In particular, playfair was adept at understanding the perceptual attributes that best support efficient cognitive operations. By taking advantage of these operations, Playfair was able to make graphs that were extremely affective, and are still used today.
 
+this is limited because it does not take into account the idea of individual perception. We are in the rhetoric of science.
+
 
 
 <br>
