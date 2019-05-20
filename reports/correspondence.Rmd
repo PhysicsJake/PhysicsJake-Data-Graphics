@@ -46,6 +46,9 @@ maybe per capita oil consumption in another graph
 
 Compared to what? Look at other climate science articles on emissions and see what they compare to
 
+**JS**
+
+
 
 
 ### 2019-04-26
@@ -60,7 +63,14 @@ compared to what? other industrialized countries?
 
 facet on sex?
 
-facet on income bracket might be informative? or income inequality? 
+facet on income bracket might be informative? or income inequality?
+
+**JS** Got GGsave to work
+
+Want to focus on racial disparity, so leaned away from comparing to outside countries. However, I cna find some number and data to compare, not enough to graph another country alongside. 
+
+Did facet on sex, income bracket was not included metric.
+
 
 
 
@@ -71,6 +81,10 @@ facet on income bracket might be informative? or income inequality?
 No graph today :(. 
 
 Data carpentry issues. Please try and see me during office hours so we can fix these issues early. Also, please work on the tutorials to get the practice you need. 
+
+**JS** Figured out data carpentry issues,
+
+produced coorelation graph, showing the cost of fighting smoking related diseases, and how the higher effective mortality from smoking causes strain on the healthcare system.
 
 
 
@@ -88,6 +102,13 @@ Change arrests to arrests as percent of that population in the incorporated area
 Factor recode race/ethnicity factor to lump together small related levels, e.g., East Asian, Pacific Islander, etc. 
 
 Also, the forcats package has a function for recoding "everything else" into a single category. (see the text)
+
+**JS** Changed Race
+
+Could not find population data that was accurate to these districts, as LAPD has their own zoning, and do not release demographics for their zoning.
+
+Did factor recode and lump small race/ethnicities into two categories. Made graph more clean and condensed, with better aspect ratio.
+
 
 
 
@@ -107,6 +128,8 @@ The introduction you gave us verbally is the basis for a written introduction in
 Order the departments by the median of the salaries. The number of employees for each department could be added as a bar chart to the right of the graph. 
 
 Us the cut() to bin the all salary data, y-axis is the range, three box plots per range. Use the number of employees in each group as the x axis. 
+
+**JS** The data for this graphic was not telling any stories. Even after much deliberation, I could not find a good way of presenting what I was hoping to find. So, it was scratched for new mpg data, and has been moved to the back end of my portfolio in case I find supporting data.
 
 
 

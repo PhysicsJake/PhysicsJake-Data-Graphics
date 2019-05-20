@@ -37,7 +37,7 @@ crime <- crime %>%
   mutate(Race = fct_reorder(Race, count)) %>% 
   mutate(Area = fct_reorder(Area, count))
 ggplot(data = crime, aes(x = count / 1000, y = Race)) + 
-  labs( x = "Arrests per 1000", y = "Race/Ethnicity", title = "Arrests per 1000 in LA" )+
+  labs( x = "Arrests/1000", y = "Race/Ethnicity", title = "Arrests over 3 year period in LA" )+
   geom_point() +
   facet_wrap(vars(Area), ncol = 6, as.table = FALSE) +
   theme_graphclass()
