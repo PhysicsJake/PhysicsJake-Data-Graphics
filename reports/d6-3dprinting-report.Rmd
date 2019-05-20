@@ -1,5 +1,5 @@
 ---
-title: "d6-3dprinting-report"
+title: "d7-salary-report"
 output: 
   github_document:
     pandoc_args: "--webtex"
@@ -8,15 +8,15 @@ link-citations: yes
 csl: "../resources/journal-of-glaciology.csl"
 ---
 
-## 3D Printing factors and their affect on sample strength
-Stemming from my research in Materials class in the fall, I have researched 3d printing materials and their tensile strength. I have even obtained some samples from NASA to test. Unfortunately, I did not have enough parameters inside my own data to display it well in multivariate form. So, I found this dataset which includes extremely similar parameters and plotted it for my own reference. The data is obtained on Kaggle at https://www.kaggle.com/afumetto/3dprinter . This set containes data for 50 3d printed tensile testing samples. Contained are 12 variables, 2 categorical, and 10 quantitative. I have filtered down The quantitative variables to the 5 which from my experience in the area will have the most effect on the sample. Note that a nozzle temperature, wall thickness, and layer height are all chosen quantitative parameters. On the contrary, tensile strength, elongation, and roughness are resultant values.
+## Introduction
+With this graph I am using Regional Price Parity to show effective salaries for mechanical engineers across the coutry
+
 
 ## Resources
-- This graph meets the requirements for D6 multivariate data
-- This graph also meets soving a problem in my techincal discipline, as I plan to remake it using my own data to improve my 3d printing process
 - 50 observations
-- 2 categorical variables, infill patten and material type. Both have 2 levels
-- 6 shown categorical variables. All are continuous in measurement. They are wall thickness, layer height, nozzle tmperature, roughness, tension strength, and elongation.
+- 1 categorical variable (states + D.C) with 51 levels
+- 2 continuous quantitative variables, RPP adjusted average salary and nominal average salary.
+- this graph is trying to solve the problem in my field that is often encountered by seniors preparing to go into the field of, "Where should I go?"
 
 
 
@@ -25,11 +25,14 @@ Stemming from my research in Materials class in the fall, I have researched 3d p
 
 ```{r echo = FALSE}
 library("knitr")
-include_graphics("../figures/d6-3dprinting-figure.png",dpi = 300)
+include_graphics("../figures/d7-salary-figure.png",dpi = 300)
 ```
 
-I chose the scatterplot matrix because of the ease of picking parameters to weigh against each other. While the parallel coordinate matrix showed some general trends, making adjustments based upon it would require a lot more hassle than necessary. Also, I kept the box and wisker plots included because it allows me to compare an extra categorical variable inside of my graph. This is particularly useful for my interests, because I can look instantly at what infill pattern and what material yields the best strength. Since I also know the prices for the materials and the cost of a particular infill, this would also allwo me to choose the most cost effective material. 
+I chose to do the micromap for my self learning prooject because I had already had the data and the idea to present this RPP adjusted data. I was able to come up with a clean graph that highlights the ascending effective salaries. The state of Vermont at the median serves as the "good" or"bad" devider, as if you are above it you are in the best 25 regions, and if you are below it you are in the worst 25 regions respective to each other. I was able to show all of the data, while stil highlighting the RPP adjusted data, which was my goal.
 
+I think that tufte would argue that the micromaps are a bit of chartjunk, but for this purpose they serve as a easy reference if you can't quite remember where exactly that job you are looking at is in the U.S. I was able to manipulate the micromap funtion to do exactly what I wanted here, getting a background that bodly shows the data, and makes it very very easy to compare states, sort of like a Cleveland dot plot.
+
+Overall, I am very happy with how this graph in particular turned out, and I think that it proved to me that I have actually learned quite a bit this quarter, and has made me excited to keep delving into the world of data visulizations.
 
 
 
