@@ -1,0 +1,44 @@
+---
+title: "d7-salary-report"
+output: 
+  github_document:
+    pandoc_args: "--webtex"
+bibliography: "../resources/references.bib"
+link-citations: yes
+csl: "../resources/journal-of-glaciology.csl"
+---
+
+## Introduction
+With this graph I am using Regional Price Parity to show effective salaries for mechanical engineers across the coutry
+
+
+## Resources
+- 50 observations
+- 1 categorical variable (states + D.C) with 51 levels
+- 2 continuous quantitative variables, RPP adjusted average salary and nominal average salary.
+- this graph is trying to solve the problem in my field that is often encountered by seniors preparing to go into the field of, "Where should I go?"
+
+
+
+
+
+
+```{r echo = FALSE}
+library("knitr")
+include_graphics("../figures/d7-salary.png",dpi = 300)
+```
+
+I chose to do the micromap for my self learning prooject because I had already had the data and the idea to present this RPP adjusted data. I was able to come up with a clean graph that highlights the ascending effective salaries. The state of Vermont at the median serves as the "good" or"bad" devider, as if you are above it you are in the best 25 regions, and if you are below it you are in the worst 25 regions respective to each other. I was able to show all of the data, while stil highlighting the RPP adjusted data, which was my goal.
+
+I think that tufte would argue that the micromaps are a bit of chartjunk, but for this purpose they serve as a easy reference if you can't quite remember where exactly that job you are looking at is in the U.S. I was able to manipulate the micromap funtion to do exactly what I wanted here, getting a background that bodly shows the data, and makes it very very easy to compare states, sort of like a Cleveland dot plot.
+
+Overall, I am very happy with how this graph in particular turned out, and I think that it proved to me that I have actually learned quite a bit this quarter, and has made me excited to keep delving into the world of data visulizations.
+
+
+
+
+
+
+
+
+## References

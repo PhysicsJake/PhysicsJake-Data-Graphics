@@ -23,7 +23,7 @@ Displays and critiques
 
 [Display 3](reports/d3-smoking-report.md) This display focuses on the effects of smoking attributed health care.
 
-[Display 4](reports/d4-mortality-report.md) 1900-2014 data on life expectancy compared between blacks and whites. Compelling story about the systemic problems within our society and governmental structure.
+[Display 4](reports/d4-mortality-figure.md) 1900-2014 data on life expectancy compared between blacks and whites. Compelling story about the systemic problems within our society and governmental structure.
 
 [Display 5](reports/d5-gas-report.md) 2014 BP Statistical Review on World energy, and its attempts to quiet the opposition of big oil and gas.
 
