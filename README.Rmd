@@ -22,15 +22,15 @@ As it stands, the portfolio below is an collection of my graphical work done for
 
 ## Displays and critiques
 
-[Display 1](reports/d1-report.md) 2018 Ohio State University Annual Base Salary Review 
-
-This report showcases a box plot with Annual Base Salary data for The Ohio State University. The data comes directly from their website at https://apps.hr.osu.edu/salaries/ . In this report, the annual base salaries are compared across three depratments in the university. These departments are the university itself, its athletic department, and its adjunct health system. Since Ohio State is know widely for their althetics, I wanted to take an in depth look at where the real hiring priorities for the university lie.
+[Display 1](reports/d1-mpg-report.md)
 
 [Display 2](reports/d2-report.md) 2010-2013 Crime and Arrest data from the Los Angeles Police Department. This graph compares the number of arrests in each area of Los Angeles for each reported race. 
 
 [Display 5](reports/d5-gas-report.md) 2014 BP Statistical Review on World energy, and its attempts to quiet the opposition of big oil and gas.
 
 [Display 6](reports/d6-3dprinting-report.md) 3D printing data plotted to show which parameters best affect specimen strength, sorted by infill and material.
+
+
 
 ## Discussion notes 
 
@@ -39,4 +39,9 @@ This report showcases a box plot with Annual Base Salary data for The Ohio State
 [Presentation response 1](reports/d1-presentation-prompts.md) Notes from and portfolio for data graphics.
 
 [Presentation response 2](reports/d2-presentation-responses.md) Notes from and portfolio for data graphics.
+
+
+[College Salary Data Draft](reports/d1-report.md) 2018 Ohio State University Annual Base Salary Review 
+
+This report showcases a box plot with Annual Base Salary data for The Ohio State University. The data comes directly from their website at https://apps.hr.osu.edu/salaries/ . In this report, the annual base salaries are compared across three depratments in the university. These departments are the university itself, its athletic department, and its adjunct health system. Since Ohio State is know widely for their althetics, I wanted to take an in depth look at where the real hiring priorities for the university lie.
 

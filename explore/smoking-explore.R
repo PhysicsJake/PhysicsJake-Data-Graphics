@@ -48,6 +48,12 @@ ggplot(data = smoking, aes(x = average_annual_cost, y = average_annual_deaths)) 
                  font_size = 12) + 
   scale_color_grey(start=0.7, end=0.2)
 
+ggsave(filename = "d3-smoking-figure.png",
+       path    = "figures",
+       width   = 8,
+       height  = 5.3,
+       units   = "in",
+       dpi     = 300)
 
 
 
