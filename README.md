@@ -29,7 +29,7 @@ Displays and critiques
 
 [Display 6](reports/d6-3dprinting-report.md) 3D printing data plotted to show which parameters best affect specimen strength, sorted by infill and material.
 
-[Display 7](reports/d7-salary-report.md) Region Price Parity adjusted mean salries for mechanical engineers by state. A review of bang for your buck states for my graduating peers to consider.
+[Display 7](reports/d7-salary-report.md) Regional Price Parity adjusted mean salaries for mechanical engineers by state. A review of "bang for your buck"" states for my graduating peers to consider.
 
 Discussion notes
 ----------------
