@@ -7,6 +7,15 @@ bibliography: "../resources/references.bib"
 link-citations: yes
 csl: "../resources/journal-of-glaciology.csl"
 ---
+## Introduction
+This report details the dishonest practices used by British Petroleum during their annual energy consumption data collection presentation.
+
+## Resources
+- This graph meets the requirements of D5 redesigning a graphical lie 
+- 50 Observations
+- one quantitative, continuous varabile in effective oil tons of Co2
+= one categorical variable in ordianl years
+
 
 ## BP 2014 Statistical Review of World Energy
 Inside this report from BP, there are many different data values for every part of the world concerning energy consumption. One of the largest, yet overlooked data measures is that for CO2 emissions due to energy production. BP fials to address this data in visual form, but it addresses every over data measure from the report. The closest we get to a visual on emisisons is this graph set for renewable energy consumption by country.

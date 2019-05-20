@@ -1,0 +1,15 @@
+
+<br> Copy and paste the following raw Rmd script into your own Rmd file
+
+week 8 reading prompts
+----------------------
+
+Kostelnick, Charles (2007) The visual rhetoric of data displays: The conundrum of clarity. *IEEE Transactions on Professional Communication* 50(2): 280--294.
+
+In-Class Discussion:
+
+Rhetoric and the many principles for being clear and effective in presenting and creating data visualizatoins. "ethos, logos, pathos, kairos" There is an idea that logos isn't enough. It is associated with modernism and rhetoric of science. "discourse community" Tufte would be slidly contained within this discourse. We do not question the cognitive research that shows how the grahpic itself changes how different people see the graphic. The critical distrinction is that who is looking at the graph, even if it is just plain and basic showing of data, changes how the graphic is perceived.
+
+Four sets of Rhetoric: Science, Adaptation, Social, Participation. Adaptation is the situation within which you are presenting. Social is the audience itself. Recognize that the rules of the game are not just the rules that you are accultured too. They are maliable given circumstance, discourse, and social context.
+
+Action Item: -&gt; pick out a peice of what stands out and take another look at the article and see what stands out (Personally, St. X, how they try to break an easily closed discourse with the opportunities that they offer)

@@ -17,11 +17,12 @@ mortality <- as_tibble(mortality)
 mortality <- filter(mortality, Race == "White" | Race == "Black")
 
 
-ggplot(mortality, aes(x = Year, y = Life_Expectancy, color = Race)) +
+p<-ggplot(mortality, aes(x = Year, y = Life_Expectancy, color = Race)) +
   geom_jitter() +
   geom_point() + 
   facet_wrap( ~Sex)  +
   geom_rect(aes(xmin=1971, xmax=1971, ymin=0, ymax=Inf)) +
+  geom_rect(aes(xmin=1900, xmax=2016, ymin=70, ymax=70)) +
 annotate("rect",xmin=1980, xmax=1997, ymin=0, ymax=Inf, alpha = 0.2) +
   theme_graphclass(line_color = rcb("mid_Gray"), 
                    font_size = 12) + 
@@ -37,7 +38,14 @@ annotate("rect",xmin=1980, xmax=1997, ymin=0, ymax=Inf, alpha = 0.2) +
         panel.grid.minor = element_blank(), 
         strip.background = element_rect(color = rcb("pale_Gray")),
         legend.position = "none" 
-  )
+      )
+ggsave(plot = p, 
+               filename = "d4-mortality-figure.png",
+               path    = "figures",
+               width   = 8,
+               height  = 8,
+               dpi = 300)
+  
 image_file <- "resources/hospice.jpg"
 image_url  <- "https://www.lakecountyhospice.org/wp-content/uploads/2014/02/Dying-at-Home-600x399.jpg"
 
@@ -50,7 +58,7 @@ hospice <- image_quantize(hospice,  max = 10, colorspace = "gray")
 hospice  <- image_colorize(hospice,  opacity = 25, color = "white")
 
 ggsave(plot = hospice_graph, 
-       filename = "hospiceg.png",
+       filename = "hospice.png",
        path    = "figures",
        width   = 4,
        height  = 4,
