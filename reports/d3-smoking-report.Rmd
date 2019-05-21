@@ -23,7 +23,7 @@ This display meets the requirements for D3 Correlation
 
 ```{r echo = FALSE}
 library("knitr")
-include_graphics("../figures/d3-smoking-figure.png")
+include_graphics("../figures/d3-smoking-final.png")
 ```
 
 ## Correlation between medical expenses and death for the smoking attributed case

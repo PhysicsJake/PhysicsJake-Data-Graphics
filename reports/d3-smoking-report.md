@@ -11,7 +11,7 @@ Resources
 
 This display meets the requirements for D3 Correlation - 260 Observations (Condensed for an average later) - Two quantitative variables, both continuous - Average annual smoking attributed expenditure (SAE) - Average annual smoking attributed mortality (SAM)
 
-<img src="../figures/d3-smoking-figure.png" width="2400" />
+<img src="../figures/d3-smoking-final.png" width="782" />
 
 Correlation between medical expenses and death for the smoking attributed case
 ------------------------------------------------------------------------------

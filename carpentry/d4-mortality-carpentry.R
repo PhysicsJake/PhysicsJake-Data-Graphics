@@ -46,24 +46,31 @@ ggsave(plot = p,
                height  = 8,
                dpi = 300)
   
-image_file <- "resources/hospice.jpg"
-image_url  <- "https://www.lakecountyhospice.org/wp-content/uploads/2014/02/Dying-at-Home-600x399.jpg"
+image_file <- "resources/grave.jpg"
+image_url  <- "https://i.dailymail.co.uk/i/pix/2015/05/25/21/2911A8EE00000578-3096297-Peter_Warigi_40_of_Kenya_visits_the_grave_of_his_brother_SSGT_An-a-53_1432586442011.jpg"
 
 if(!file.exists(image_file)) {
-  hospice <- image_read(image_url)  
+  grave <- image_read(image_url)  
   image_write(hospice, path = image_file, format = "jpg")
 }
-hospice <- image_read("resources/hospice.png")
-hospice <- image_quantize(hospice,  max = 10, colorspace = "gray")
-hospice  <- image_colorize(hospice,  opacity = 25, color = "white")
+grave <- image_read("resources/grave.jpg")
+grave <- image_quantize(grave,  max = 10, colorspace = "gray")
+# adjust brightness and contrast
+grave <- image_modulate(grave, brightness = 200)
+grave <- image_contrast(grave, sharpen = 0)
+grave <- image_colorize(grave, opacity = 25, color = "white")
+grave <- image_scale(grave, "500")
 
-ggsave(plot = hospice_graph, 
-       filename = "hospice.png",
-       path    = "figures",
-       width   = 4,
-       height  = 4,
-       dpi = 300
-)
-hospice <- image_scale(hospice, "x500")
-hospice_graph <- image_read("explore/test_hospice_figure.jpg")
-hospice_graph <- image_scale(hospice_graph, "x500")
+
+
+p <- image_read("figures/d4-mortality-figure.png")
+p <- image_scale(p, "500")
+p <- image_border(p, rcb("pale_Gray"), "15x15")
+grave <- image_border(grave, rcb("pale_Gray"), "15x15")
+
+
+final_img <- image_append(c(grave, p), stack = TRUE)
+
+image_write(final_img, 
+            path = "figures/d4-mortality-final.png", 
+            format = "png")
