@@ -13,7 +13,7 @@ csl: "../resources/journal-of-glaciology.csl"
 Below is a graph that highlights the racial distribution of all of the crimes documented by the LAPD from 2010-2013. 
 
 ## Resources
-This display meets the requirements for D2 Multiway
+- This display meets the requirements for D2 Multiway
 - 332 observations
 - Race/Ethnicity which is categorical and has 8 levels
 - Location in LA which is categorical, 21 levels

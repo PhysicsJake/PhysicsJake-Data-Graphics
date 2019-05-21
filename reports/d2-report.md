@@ -9,9 +9,13 @@ Below is a graph that highlights the racial distribution of all of the crimes do
 Resources
 ---------
 
-This display meets the requirements for D2 Multiway - 332 observations - Race/Ethnicity which is categorical and has 8 levels - Location in LA which is categorical, 21 levels - One quantitative variable is Arrests/1000
+-   This display meets the requirements for D2 Multiway
+-   332 observations
+-   Race/Ethnicity which is categorical and has 8 levels
+-   Location in LA which is categorical, 21 levels
+-   One quantitative variable is Arrests/1000
 
-<img src="../figures/d2-crime-data.png" width="2400" />
+<img src="../figures/d2-crime-data.png" width="2100" />
 
 The figure above is a multiway distribution using the LAPD's openly published data on all of their arrests from 2010 - 2013.I have chosen to sort the data by the largest arrest count to easily show outliers. Having the ability to show the outliers against an expected "curve" allows me to be able to show what my real point is. This is the main purpose of the carpentry and display of this data. It shows where the unexpected number of arrests occur. The outliers are where the real story is told in this data. Along the top row of the graph, The arrests are mostly Hispanic for all regions. This is a disproportionate amount, even to the highly hispanic population of these areas of Los Angeles. I am still looking for appropriate accompanying population demographics, as that would provide the real context and story to this data.
 
