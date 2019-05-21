@@ -24,10 +24,7 @@ crime$Race <- as.factor(crime$Race)
 crime$Area <- as.factor(crime$Area)
 newlevels <- c("Asian Indian", "Unknown", "White","Vietnamese","Hawaiian", "Samoan","Pacific Islander","Other","Laotian","Korean","Japanese","American Indian","Hispanic","Guamanian","Filipino","Cambodian","Chinese","Black","General Asian","Other")
 levels(crime$Race) <- rev(newlevels)
-crime <- crime %>%
-  mutate(Race = fct_collapse(Race,
-                              "Asian"                      = c("General Asian","Samoan","Vietnamese","Chinese","Japanese","Asian Indian", "Korean","Guamanian","Cambodian","Laotian","Hawaiian","Pacific Islander"
-  )))
+crime <- filter(crime,Race == "White" | Race =="Black" |Race == "Hispanic" | Race == "General Asian" | Race == "Other")
 
 
 
@@ -36,15 +33,16 @@ crime <- crime %>%
 crime <- crime %>%
   mutate(Race = fct_reorder(Race, count)) %>% 
   mutate(Area = fct_reorder(Area, count))
-ggplot(data = crime, aes(x = count / 1000, y = Race)) + 
+ggplot(data = crime, aes(x = count / 1000, y = Area)) + 
   labs( x = "Arrests/1000", y = "Race/Ethnicity", title = "Arrests over 3 year period in LA" )+
-  geom_point() +
-  facet_wrap(vars(Area), ncol = 6, as.table = FALSE) +
+  geom_point(shape = 21, size = 2.5, alpha = 0.7,fill = rcb("mid_BG")) +
+  facet_wrap(vars(Race), ncol = 6, as.table = FALSE) +
   theme_graphclass()
+  
 
 ggsave(filename = "d2-crime-data.png",
        path    = "figures",
-       width   = 8,
+       width   = 7,
        height  = 6,
        units   = "in",
        dpi     = 300)
