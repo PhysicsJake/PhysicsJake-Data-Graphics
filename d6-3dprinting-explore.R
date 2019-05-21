@@ -13,7 +13,8 @@ printing<- read_rds("data/d6-3dprinting-data.rds")
 glimpse(printing)
 
 ggparcoord(printing, columns = c(1,2,5,8,11,12))
-my_color <- c(rcb("dark_BG"),  rcb("dark_Br"))my_fill  <- c(rcb("light_BG"), rcb("light_Br"))
+my_color <- c(rcb("dark_BG"),  rcb("dark_Br"))
+my_fill  <- c(rcb("light_BG"), rcb("light_Br"))
 my_title <- "Comparing Effects of 3D Printing Variables on Tensile Strength"
 ggparcoord(data = printing, columns = c(1,2,4,5,10,11,12), groupColumn  = "material",
            scale        = "std", 
