@@ -43,7 +43,7 @@ of us.
 ""
 
 ```{r echo = FALSE}
-include_graphics("../figures/d5-gas.png",dpi = 300)
+include_graphics("../figures/d5-gas-final.png",dpi = 300)
 ```
 
 

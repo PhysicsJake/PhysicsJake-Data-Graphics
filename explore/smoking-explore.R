@@ -93,7 +93,7 @@ hospice <- image_border(hospice, rcb("pale_Gray"), "15x15")
 
 
 # append to the graph image 
-final_img <- image_append(c(hospice, p), stack = TRUE)
+final_img <- image_append(c(hospice, p), stack = FALSE)
 
 image_write(final_img, 
             path = "figures/d3-smoking-final.png", 

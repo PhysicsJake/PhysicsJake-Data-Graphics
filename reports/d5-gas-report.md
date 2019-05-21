@@ -24,7 +24,7 @@ This set of graphs is misleading. While the data itself is accurate to the repor
 
 Here is their claim: 'Worrying: because the power sector is the single most important source of carbon emissions from energy consumption, accounting for over a third of those emissions in 2017. To have any chance of getting on a path consistent with meeting the Paris climate goals there will need to be significant improvements in the power sector. But this is one area where at the global level we haven’t even taken one step forward, we have stood still: perfectly still for the e past 20 years. This chart should serve as a wake-up call for all of us. ""
 
-<img src="../figures/d5-gas.png" width="768" />
+<img src="../figures/d5-gas-final.png" width="1536" />
 
 References
 ----------
