@@ -10,11 +10,11 @@ csl: "../resources/journal-of-glaciology.csl"
 
 ## Introduction
 
-Below is a graph that highlights the racial distribution of all of the crimes documented by the LAPD from 2010-2013. 
+Below is a graph that highlights the racial distribution of all of the crimes documented by the LAPD from 2010-2013. The data is separated into the seperate districts under jurisdiction of the LAPD, and comes from a dataset of over 800,000 observations.
 
 ## Resources
 - This display meets the requirements for D2 Multiway
-- 332 observations
+- 802,478 observations
 - Race/Ethnicity which is categorical and has 8 levels
 - Location in LA which is categorical, 21 levels
 - One quantitative variable is Arrests/1000
@@ -26,12 +26,12 @@ library("knitr")
 include_graphics("../figures/d2-crime-data.png")
 ```
 
-The figure above is a multiway distribution using the LAPD's openly published data on all of their arrests from 2010 - 2013.I have chosen to sort the data by the largest arrest count to easily show outliers. Having the ability to show the outliers against an expected "curve" allows me to be able to show what my real point is. This is the main purpose of the carpentry and display of this data. It shows where the unexpected number of arrests occur. The outliers are where the real story is told in this data. Along the top row of the graph, The arrests are mostly Hispanic for all regions. This is a disproportionate amount, even to the highly hispanic population of these areas of Los Angeles. I am still looking for appropriate accompanying population demographics, as that would provide the real context and story to this data.
+The figure above is a multiway distribution using the LAPD's openly published data on all of their arrests from 2010 - 2013. I have chosen to sort the data by the largest arrest count to easily show outliers. Having the ability to show the outliers against an expected "curve" allows me to be able to show what my real point is. I have chosen to wrap it via race because the race data shows a more interesting story than the area does. The area perspective could be explore in more depth if I could find regional remographics that line up reasonably well with my data. I have chosen to keep this graph as clutter free as possible, so that the viewer just sees the data, and starts to make comparisons. Without population data, conclusions are a bit tougher to reach, however, I will dive into my assessment next.
 
-Another interesting conclusion that is drawn from the graphs is the high number of arrests for Blacks and Hispanics in Southern LA. These arrest patterns line up with the often scrutinized gang violence problem that exists between the primary black and primary hispanic areas in the Southern part of the city.
+The most interesting story that is visible to the reader, is the way that the "curves" between the Hispanic and White communities tend to mirror each other. When one is higher the other is usually lower and vice versa. This could mean that there is some sort of bias given the domographic of the areas, or somehting else entirely. Another interesting point is the very high amount of arrests for the black population on 77th Street. This anomoly warrented a small bit of research. The 77th Street area is occupied by mostly Hispanics and Blacks, with Hispanics having the population edge. Since Black arrests are almost 1.5 times higher here, I believe that the 77th street police office should be sunject to criticism and review to make sure that there isn't a structural racism problem within the unit.
 
-I beleive that given the demographic numbers, it would be much easier to see the race discrepancies that are very much prevelant in today's society and that take center stage in the media that we see on a daily basis.
 
-As far as the design of the graph, I chose to keep this data as uncluttered as possible, by both pulling out outliers and grouping them into a new variable. This gives the graph a full but not overly cluttered look that just shows the data. Again, I am looking forward to finding some population data to really give this visual some incredible depth in the future.
+
+
 
 
