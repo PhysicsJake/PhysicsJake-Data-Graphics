@@ -27,12 +27,12 @@ annotate("rect",xmin=1980, xmax=1997, ymin=0, ymax=Inf, alpha = 0.2) +
   theme_graphclass(line_color = rcb("mid_Gray"), 
                    font_size = 12) + 
   scale_color_grey(start=0.2, end=0.6) +
-  geom_text(aes(label=ifelse(Year == 2014,as.character(Race),'')),hjust=2,vjust=0) +
+  geom_text(aes(label=ifelse(Year == 2014,as.character(Race),'')),hjust=.6,vjust=-.5) +
   theme(axis.line = element_line(colour = rcb("pale_Gray")), 
         strip.text = element_text(color = rcb("dark_Gray"), face = "bold"), 
         plot.margin = unit(c(2, 4, 1, 0), "mm"), # top, right, bottom, and left margins
         panel.border = element_rect(color = rcb("pale_Gray"), fill = NA), 
-        panel.spacing = unit(3, "mm"), 
+        panel.spacing = unit(3, "mm"),
         plot.background = element_rect(color = NA, fill = rcb("pale_Gray")), 
         panel.background = element_rect(color = NA, fill = rcb("pale_Gray")), 
         panel.grid.minor = element_blank(), 
