@@ -11,7 +11,7 @@ Resources
 
 This display meets the requirements for D4 Mortality - 696 observations - one quantitative continuous variable, life expectancy in years - one ordinal categorical variable in the year - one categorical variables in the form of sex. This graph also meets the requirement for a compelling story, as will be highlighted in a moment.
 
-<img src="../figures/d4-mortality-figure.png" width="2400" />
+<img src="../figures/d4-mortality-final.png" width="530" />
 
 Ever existing gap between black life expectancy and white life expectancy.
 --------------------------------------------------------------------------

@@ -24,7 +24,7 @@ This graph also meets the requirement for a compelling story, as will be highlig
 
 ```{r echo = FALSE}
 library("knitr")
-include_graphics("../figures/d4-mortality-figure.png")
+include_graphics("../figures/d4-mortality-final.png")
 ```
 
 ## Ever existing gap between black life expectancy and white life expectancy. 
