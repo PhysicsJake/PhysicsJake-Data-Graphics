@@ -22,37 +22,51 @@ As it stands, the portfolio below is an collection of my graphical work done for
 
 ## Displays and critiques
 
-[Display 1](reports/d1-mpg-report.md) This display is from the 1970s and 1980s vehicles, and is used to show the effect that the oil shocks had on the industry.
+[Display 1](reports/d1-mpg-report.md) Oil Shock Era Fuel Economy
 
-[Display 2](reports/d2-report.md) 2010-2013 Crime and Arrest data from the Los Angeles Police Department. This graph compares the number of arrests in each area of Los Angeles for each reported race.
+This box plot is from the 1970s and 1980s vehicles, and is used to show the effect that the oil shocks had on the industry.
 
-[Display 3](reports/d3-smoking-report.md) This display focuses on the effects of smoking attributed health care.
+[Display 2](reports/d2-report.md) 2010-2013 Crime and Arrest data from the Los Angeles Police Department
 
-[Display 4](reports/d4-mortality-figure.md) 1900-2014 data on life expectancy compared between blacks and whites. Compelling story about the systemic problems within our society and governmental structure.
+This multiway dot plot compares the number of arrests in each area of Los Angeles for each reported race.
 
-[Display 5](reports/d5-gas-report.md) 2014 BP Statistical Review on World energy, and its attempts to quiet the opposition of big oil and gas.
+[Display 3](reports/d3-smoking-report.md) Smoking Attributable Factors
 
-[Display 6](reports/d6-3dprinting-report.md) 3D printing data plotted to show which parameters best affect specimen strength, sorted by infill and material.
+This scatterplot focuses on the effects of smoking attributed health care.
 
-[Display 7](reports/d7-salary-report.md) Regional Price Parity adjusted mean salaries for mechanical engineers by state. A review of "bang for your buck"" states for my graduating peers to consider.
+[Display 4](reports/d4-mortality-figure.md) Life Expectancy shows the U.S. History of Systemic Racism
+
+1900-2014 data on life expectancy compared between blacks and whites. Line graph that tells a compelling story about the systemic problems within our society and governmental structure.
+
+[Display 5](reports/d5-gas-report.md) The BP Pollution Stance and Deception
+
+A deceptive line graph that BP did not publish and the correction for it if it had been published.
+
+[Display 6](reports/d6-3dprinting-report.md) Perfecting your Prints with Statistics
+
+3D printing data plotted via scatterplot matrix to show which parameters best affect specimen strength, sorted by infill and material.
+
+[Display 7](reports/d7-salary-report.md) "Bang for your Buck" States for Mechanical Engineers
+
+Micromap of Regional Price Parity adjusted mean salaries for mechanical engineers by state. A review of "bang for your buck"" states for my graduating peers to consider.
 
 Discussion notes
 ----------------
 
-[Reading responses 1](reports/reading-responses-w2.md) Notes from literature on elements of design and visual rhetoric.
+[Reading responses 1](reports/reading-responses-w2.md) Tufte (1997) Decision to launch Challenger
 
-[Reading responses 2](reports/reading-responses-w4.md) Notes from literature on how the structure of data fits the visuals that are being designed.
+[Reading responses 2](reports/reading-responses-w4.md) Wainer (2014) 15 displays about one thing
 
-[Reading responses 3](reports/reading-responses-w6.md) Notes
-from the art of designing graphs badly. Or, how not to do so.
+[Reading responses 3](reports/reading-responses-w6.md) Dragga and Voss (2001) Cruel pies
 
-[Reading responses 4](reports/w8-reading-responses.md) Notes from literature on the importance of discord community and recognizing audience.
+[Reading responses 4](reports/w8-reading-responses.md) Kostelnick (2007) Conundrum of clarity
 
-[Reading responses 5](reports/w10-reading-responses.md) Notes from literature on the invention of modern data visualizations.
+[Reading responses 5](reports/w10-reading-responses.md) Spence (2006) Playfair & psychology of graphs
+
 
 [Presentation response 1](reports/d1-presentation-prompts.md) Notes from weekly presentation
 
-[Presentation response 2](reports/d2-presentation-responses.md) Notes from and portfolio for data graphics.
+[Presentation response 2](reports/d2-presentation-responses.md) Note, critiques contain future response information
 
 [College Salary Data Draft](reports/d1-report.md) 2018 Ohio State University Annual Base Salary Review
 
