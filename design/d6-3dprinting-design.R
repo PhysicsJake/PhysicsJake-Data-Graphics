@@ -14,7 +14,8 @@ glimpse(printing)
 my_color <- c(rcb("dark_BG"),  rcb("dark_Br"))
 my_fill  <- c(rcb("light_BG"), rcb("light_Br"))
 my_title <- "Comparing Effects of 3D Printing Variables on Tensile Strength"
-pm <- ggpairs(printing, columns = c(1,2,5,10,11,12,4),  
+pm <- ggpairs(printing, columns = c(4,1,2,5,10,11,12),
+              rows = c(1,2,5,10,11,12,4),
               mapping = ggplot2::aes(color = material, fill = material), 
               title   = my_title, 
               legend  = 1, 
