@@ -15,7 +15,7 @@ Resources
 -   2 categorical variables, infill patten and material type. Both have 2 levels
 -   6 shown categorical variables. All are continuous in measurement. They are wall thickness, layer height, nozzle tmperature, roughness, tension strength, and elongation.
 
-<img src="../figures/d6-3dprinting-figure.png" width="768" />
+![](../figures/d6-3dprinting-figure.png)
 
 I chose the scatterplot matrix because of the ease of picking parameters to weigh against each other. While the parallel coordinate matrix showed some general trends, making adjustments based upon it would require a lot more hassle than necessary. Also, I kept the box and wisker plots included because it allows me to compare an extra categorical variable inside of my graph. This is particularly useful for my interests, because I can look instantly at what infill pattern and what material yields the best strength. Since I also know the prices for the materials and the cost of a particular infill, this would also allwo me to choose the most cost effective material.
 
