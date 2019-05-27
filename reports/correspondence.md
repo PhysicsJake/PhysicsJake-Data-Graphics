@@ -1,6 +1,55 @@
 
-correspondence
---------------
+## correspondence
+
+### 2019-05-27
+
+Portfolio review  
+2019-05-27  
+Richard Layton
+
+56/70 Portfolio. Generally meets minimum requirements does not rise to
+the level of thorough competence.  
+10/15 Responses to the reading and presentation prompts  
+14/15 Presenting your work and participating in discussions  
+80/100 Total. Course grade: B
+
+Overall, I think a higher grade was within your grasp, but perhaps you
+did not allow sufficient time for revising the critiques or paying
+attention to details such as citations and references and the type of
+story (from Doumont). The overall graph work is thoroughly competent
+(3.4/4.0). The critiques are passing (2.4/4.0)
+
+  - D1. graph (B), critique (C)  
+  - D2. graph (A), critique (C)  
+  - D3. graph (C), critique (B)  
+  - D4. graph (A), critique (B)  
+  - D5. graph (A), critique (B)  
+  - D6. graph (A), critique (C)  
+  - D7. graph (B), critique (C)  
+  - total for this component: 41/14 = 2.93/4.0 scale -\> 79% or 56/70
+
+Recall the letter grades represent:
+
+  - A honors level work
+  - B thoroughly competent
+  - C meets minimum expectations
+
+Generally positive observations
+
+  - The data are appropriate for the graph type
+  - Introductions are satisfactory  
+  - Discussion of the stories are generally good
+  - Reading responses satisfactory
+
+Generally negative observations
+
+  - The basic story type (Doumont reading) not cited  
+  - Citations and references not per our standards
+  - Insufficient use of feedback from readings and discussions on visual
+    rhetoric
+  - Discussions of visual rhetoric and design decisions generally poor.
+  - Did not meticulously comply with file management guidelines
+  - Presentation responses incomplete
 
 ### 2019-05-17
 
@@ -10,27 +59,34 @@ correspondence
 
 **RL** D6 presentation notes.
 
-Assign an alpha value to the density plots so they are somewhat transparent
+Assign an alpha value to the density plots so they are somewhat
+transparent
 
-What can you conclude for the density graphs? From the correlation values? From the box plots? etc.
+What can you conclude for the density graphs? From the correlation
+values? From the box plots? etc.
 
-Place a number in the panels you intend to discuss so you can refer to them in the critique.
+Place a number in the panels you intend to discuss so you can refer to
+them in the critique.
 
 Are these the two most commonly used materials?
 
-You could also separate out the unimportant variables and show them in a separate graph.
+You could also separate out the unimportant variables and show them in a
+separate graph.
 
-Critique should conclude with a discussion of how i use this graph to select a material for a particular application. Use examples.
+Critique should conclude with a discussion of how i use this graph to
+select a material for a particular application. Use examples.
 
 **RL** D5 presentation notes.
 
-The problem is that CO2 per ton of oil doesn't help us with climate change
+The problem is that CO2 per ton of oil doesn’t help us with climate
+change
 
 plot the CO2 tons as a raw number
 
 maybe per capita oil consumption in another graph
 
-Compared to what? Look at other climate science articles on emissions and see what they compare to
+Compared to what? Look at other climate science articles on emissions
+and see what they compare to
 
 **JS**
 
@@ -38,9 +94,11 @@ Compared to what? Look at other climate science articles on emissions and see wh
 
 **RL** D4 presentation notes.
 
-If ggsave doesn't work, try png() function followed by dev.off()
+If ggsave doesn’t work, try png() function followed by dev.off()
 
-vertical bands that might explain the drop in life exp., e.g., WW1, WW2, policy changes such as the start of medicare/medicaid, the start of social security, tobacco advertising banned
+vertical bands that might explain the drop in life exp., e.g., WW1, WW2,
+policy changes such as the start of medicare/medicaid, the start of
+social security, tobacco advertising banned
 
 compared to what? other industrialized countries?
 
@@ -50,7 +108,9 @@ facet on income bracket might be informative? or income inequality?
 
 **JS** Got GGsave to work
 
-Want to focus on racial disparity, so leaned away from comparing to outside countries. However, I cna find some number and data to compare, not enough to graph another country alongside.
+Want to focus on racial disparity, so leaned away from comparing to
+outside countries. However, I can find some number and data to compare,
+not enough to graph another country alongside.
 
 Did facet on sex, income bracket was not included metric.
 
@@ -60,11 +120,15 @@ Did facet on sex, income bracket was not included metric.
 
 No graph today :(.
 
-Data carpentry issues. Please try and see me during office hours so we can fix these issues early. Also, please work on the tutorials to get the practice you need.
+Data carpentry issues. Please try and see me during office hours so we
+can fix these issues early. Also, please work on the tutorials to get
+the practice you need.
 
 **JS** Figured out data carpentry issues,
 
-produced coorelation graph, showing the cost of fighting smoking related diseases, and how the higher effective mortality from smoking causes strain on the healthcare system.
+produced correlation graph, showing the cost of fighting smoking related
+diseases, and how the higher effective mortality from smoking causes
+strain on the healthcare system.
 
 ### 2019-04-05
 
@@ -72,46 +136,72 @@ produced coorelation graph, showing the cost of fighting smoking related disease
 
 Change Race to Race/Ethnicity
 
-Change arrests to arrests as percent of that population in the incorporated area
+Change arrests to arrests as percent of that population in the
+incorporated area
 
-Factor recode race/ethnicity factor to lump together small related levels, e.g., East Asian, Pacific Islander, etc.
+Factor recode race/ethnicity factor to lump together small related
+levels, e.g., East Asian, Pacific Islander, etc.
 
-Also, the forcats package has a function for recoding "everything else" into a single category. (see the text)
+Also, the forcats package has a function for recoding “everything else”
+into a single category. (see the text)
 
 **JS** Changed Race
 
-Could not find population data that was accurate to these districts, as LAPD has their own zoning, and do not release demographics for their zoning.
+Could not find population data that was accurate to these districts, as
+LAPD has their own zoning, and do not release demographics for their
+zoning.
 
-Did factor recode and lump small race/ethnicities into two categories. Made graph more clean and condensed, with better aspect ratio.
+Did factor recode and lump small race/ethnicity into two categories.
+Made graph more clean and condensed, with better aspect ratio.
 
 ### 2019-03-29
 
 **RL** D1 presentation notes.
 
-The introduction you gave us verbally is the basis for a written introduction in the report.
+The introduction you gave us verbally is the basis for a written
+introduction in the report.
 
-Order the departments by the median of the salaries. The number of employees for each department could be added as a bar chart to the right of the graph.
+Order the departments by the median of the salaries. The number of
+employees for each department could be added as a bar chart to the right
+of the graph.
 
-Us the cut() to bin the all salary data, y-axis is the range, three box plots per range. Use the number of employees in each group as the x axis.
+Us the cut() to bin the all salary data, y-axis is the range, three box
+plots per range. Use the number of employees in each group as the x
+axis.
 
-**JS** The data for this graphic was not telling any stories. Even after much deliberation, I could not find a good way of presenting what I was hoping to find. So, it was scratched for new mpg data, and has been moved to the back end of my portfolio in case I find supporting data.
+**JS** The data for this graphic was not telling any stories. Even after
+much deliberation, I could not find a good way of presenting what I was
+hoping to find. So, it was scratched for new mpg data, and has been
+moved to the back end of my portfolio in case I find supporting data.
 
 ### 2019-03-25
 
 **RL** The links on the README page all work. No problems so far.
 
-I don't see any data. I would have hoped that by now you would have been examining some data for graphing, even if a graph wasn't ready. I can't emphasize enough how important it is that you work ahead on acquiring data that meets the data requirements for the various displays. This is the single most important obstacle that has kept past students from being as successful as they might have been.
+I don’t see any data. I would have hoped that by now you would have been
+examining some data for graphing, even if a graph wasn’t ready. I can’t
+emphasize enough how important it is that you work ahead on acquiring
+data that meets the data requirements for the various displays. This is
+the single most important obstacle that has kept past students from
+being as successful as they might have been.
 
 ### 2019-03-10
 
-**RL** I've revised the prompts for the week 2 reading. Please update your reading response file. Remember to complete your responses in writing before class on Tuesday. <https://github.com/DSR-RHIT/me447-visualizing-data/blob/master/reports/reading-prompts-1.Rmd>
+**RL** I’ve revised the prompts for the week 2 reading. Please update
+your reading response file. Remember to complete your responses in
+writing before class on Tuesday.
+<https://github.com/DSR-RHIT/me447-visualizing-data/blob/master/reports/reading-prompts-1.Rmd>
 
-**RL** This is an example of a second comment in reverse chronological order.
+**RL** This is an example of a second comment in reverse chronological
+order.
 
 **RD** And its response.
 
 ### 2019-02-10
 
-**RL** I will use this Rmd file for corresponding with you about your portfolio. Entries will be dated and listed in reverse chronological order--that is, with the most recent at the top of the page. You should record your responses directly below, for example:
+**RL** I will use this Rmd file for corresponding with you about your
+portfolio. Entries will be dated and listed in reverse chronological
+order–that is, with the most recent at the top of the page. You should
+record your responses directly below, for example:
 
 **RD** This is a sample response to the comment above.
